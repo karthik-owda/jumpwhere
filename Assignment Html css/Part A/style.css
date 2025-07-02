@@ -1,0 +1,95 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #004aad;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #0077cc;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    padding: 10px 0;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+main {
+    padding: 20px;
+}
+
+/* Image */
+.sample-image {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Button */
+.main-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.main-button:hover {
+    background-color: #218838;
+}
+
+/* Anchor as Button */
+.btn-link {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.btn-link:hover {
+    background-color: #e65c00;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
