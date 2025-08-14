@@ -1,3 +1,6 @@
+create database department;
+use department;
+
 create table Dept(
 DeptNo int PRIMARY KEY,
 Dname VARCHAR(30),
@@ -204,6 +207,7 @@ and d.Loc = 'Delhi';
 30) Write a query to display the details of employees who are senior to Martin 
 select * from emp 
 where Hire_Date<(select Hire_Date from emp where Ename='Martin');
+
 
 
 
